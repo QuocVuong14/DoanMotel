@@ -1,0 +1,26 @@
+.location {
+    &-destrict {
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid #dedede;
+        padding: 15px;
+        background-color: #fff;
+        border-radius: 5px;
+        &-item {
+            width: 170px;
+            text-align: left;
+            line-height: 1.6;
+            list-style-type: none;
+        }
+        &-link {
+            text-decoration: none;
+            span {
+                font-size: 12px;
+                color: #999;
+            }
+            &:hover {
+                color: orange;
+            }
+        }
+    }
+}

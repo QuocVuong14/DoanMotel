@@ -1,0 +1,79 @@
+.contact {
+    &_main {
+        margin-bottom: 20px;
+        padding: 20px 50px 50px 50px;
+        background-color: #fff;
+        border: 1px solid #dedede;
+        border-radius: 8px;
+    }
+    &_heading {
+        font-size: 18px;
+        text-align: center;
+        color: #333333;
+    }
+    &_info {
+        line-height: 1.5;
+        font-size: 14px;
+        margin: 10px 0;
+        text-align: center;
+        a {
+            text-decoration: none;
+        }
+    }
+    &_counter_list {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+    &_counter_item {
+        list-style-type: none;
+
+        width: 100%;
+        text-align: center;
+    }
+    &_counter_number {
+        margin: 0;
+        font-weight: 700;
+        margin-bottom: 7px;
+        font-size: 21px;
+    }
+    &_title {
+        font-size: 18px;
+        text-align: center;
+        margin: 15px 0;
+    }
+    &_star {
+        text-align: center;
+        margin: 10px 0 20px 0;
+        span {
+            width: 100px;
+            height: 20px;
+            background: url(../image/star2.png) left center repeat-x;
+            background-size: 20px 20px;
+            display: inline-block;
+            margin-right: 3px;
+            float: none;
+        }
+    }
+    &_testimonial {
+        font-style: italic;
+        line-height: 1.4;
+        text-align: center;
+        font-size: 14px;
+        color: #333333;
+        margin-bottom: 20px;
+    }
+    &_btn {
+        background: #f73859;
+        border-color: #f73859;
+        width: max-content;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        &:hover {
+            color: white;
+            text-decoration: underline;
+        }
+    }
+}

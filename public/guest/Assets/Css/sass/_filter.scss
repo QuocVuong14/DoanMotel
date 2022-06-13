@@ -1,0 +1,123 @@
+.filter {
+    margin-top: 10px;
+
+    &-body {
+        background-color: #febb02;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        border-radius: 10px;
+    }
+    &-item {
+        background-color: white;
+        border-radius: 5px;
+        width: 100%;
+        height: 35px;
+        cursor: pointer;
+        &:not(:last-child) {
+            margin-right: 15px;
+        }
+    }
+    &-type,
+    &-location,
+    &-price,
+    &-acreage {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-type {
+        &-name {
+            display: flex;
+            align-items: center;
+            padding: 10px 30px 10px 12px;
+        }
+
+        &-name {
+            &::before {
+                content: "";
+                display: block;
+                background: url("../image/building-icon.svg") no-repeat center/cover;
+                width: 12px;
+                height: 12px;
+                margin-right: 5px;
+                pointer-events: none;
+            }
+        }
+    }
+    &-localtion {
+        &-name {
+            display: flex;
+            align-items: center;
+            padding: 10px 30px 10px 12px;
+            &::before {
+                content: "";
+                display: block;
+                background: url("../image/location-icon.svg") no-repeat center/cover;
+                width: 12px;
+                height: 12px;
+                margin-right: 5px;
+                pointer-events: none;
+            }
+        }
+    }
+    &-price {
+        &-name {
+            display: flex;
+            align-items: center;
+            padding: 10px 30px 10px 12px;
+            &::before {
+                content: "";
+                display: block;
+                background: url("../image/price-icon.svg") no-repeat center/cover;
+                width: 12px;
+                height: 12px;
+                margin-right: 5px;
+                pointer-events: none;
+            }
+        }
+    }
+    &-acreage {
+        &-name {
+            display: flex;
+            align-items: center;
+            padding: 10px 30px 10px 12px;
+            &::before {
+                content: "";
+                display: block;
+                background: url("../image/acreage-icon.svg") no-repeat center/cover;
+                width: 12px;
+                height: 12px;
+                margin-right: 5px;
+                pointer-events: none;
+            }
+        }
+    }
+    &-icon-delete,
+    &-icon-arrowRight {
+        width: 12px;
+        height: 12px;
+        display: block;
+        margin-right: 10px;
+    }
+    &-icon-delete {
+        background: url("../image/delete-filter-item.svg") no-repeat center/cover;
+    }
+    &-icon-arrowRight {
+        background: url("../image/delete-filter-item.svg") no-repeat center/cover;
+    }
+    &-submit {
+        background-color: #0d6efd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &::before {
+            content: "";
+            background: url("../image/search-white-icon.svg") no-repeat center/cover;
+            width: 15px;
+            height: 15px;
+            display: block;
+            margin-right: 10px;
+        }
+    }
+}

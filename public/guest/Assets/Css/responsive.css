@@ -1,0 +1,247 @@
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1170px;
+        padding: 0;
+    }
+    .support_list {
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 800px !important;
+    }
+    .header-user-welcome {
+        display: none;
+    }
+    .header-top {
+        /* position: fixed; */
+        /* margin-bottom: 50px; */
+    }
+    .header-nav {
+        display: none;
+    }
+    .header__action {
+        display: block !important;
+    }
+    .menu__icon {
+        display: block !important;
+        font-size: 25px;
+    }
+    .filter {
+        /* margin-top: 80px; */
+    }
+    .filter-body {
+        flex-wrap: wrap;
+        background-color: #dedede;
+    }
+    .filter-item {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .filter-item:not(:last-child) {
+        margin-right: 0px;
+    }
+    .filter-submit {
+        margin-bottom: 0px;
+    }
+    .col-md-8.p-0 {
+        width: 100%;
+    }
+    .col-md-4 {
+        width: 100%;
+    }
+    .section-aside {
+        display: none;
+    }
+    .footer {
+        /* display: none; */
+    }
+    .footer-main {
+        flex-wrap: wrap;
+        margin-bottom: 70px;
+    }
+    .footer-main-col:not(:first-child) {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .footer-main-col:first-child {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .bottom-bar {
+        display: block !important;
+    }
+    .bottom-bar-item {
+        width: 25% !important;
+    }
+}
+
+@media (max-width: 769px) {
+    .container {
+        max-width: 760px !important;
+    }
+    .bottom-bar-item {
+        width: 25% !important;
+    }
+}
+
+@media (max-width: 420px) {
+    .container {}
+    .header-user-welcome {
+        display: none;
+    }
+    .header-top {
+        /* position: fixed; */
+        /* margin-bottom: 50px; */
+    }
+    .header-nav {
+        display: none;
+    }
+    .header__action {
+        display: block !important;
+    }
+    .menu__icon {
+        display: block !important;
+        font-size: 25px;
+    }
+    /* filter */
+    .filter {
+        /* margin-top: 80px; */
+    }
+    .filter-body {
+        flex-wrap: wrap;
+        background-color: #dedede;
+    }
+    .filter-item {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .filter-item:not(:last-child) {
+        margin-right: 0px;
+    }
+    .filter-submit {
+        margin-bottom: 0px;
+    }
+    .page-header-title {
+        font-size: 20px;
+    }
+    .col-md-8.p-0 {
+        width: 100%;
+    }
+    /* session */
+    .section-aside {
+        display: none;
+    }
+    .section-listing-info-desc {
+        display: none;
+    }
+    .section-listing-info-meta {
+        flex-wrap: wrap;
+    }
+    .section-listing-info-meta p {
+        margin-bottom: 10px;
+    }
+    .section-listing-info-time {
+        /* display: block; */
+        margin-left: 0;
+    }
+    .section-navigation {
+        margin: 20px 0 20px;
+    }
+    /* contact */
+    .contact_main {
+        display: none;
+    }
+    /* support*/
+    .support {
+        padding-bottom: 20px;
+    }
+    .support_main {
+        margin-top: 5px;
+    }
+    .support_list {
+        padding: 0px 0px !important;
+    }
+    /* footer */
+    .footer {
+        /* display: none; */
+    }
+    .footer-main {
+        flex-wrap: wrap;
+        margin-bottom: 70px;
+    }
+    .footer-top-list {
+        flex-wrap: wrap;
+    }
+    .footer-top-item span {
+        background: none;
+    }
+    .footer-top-item:not(:last-child) {
+        /* padding-right: 10px; */
+        border-right: none;
+        width: 100%;
+    }
+    .footer-top-item:last-child {
+        width: 100%;
+    }
+    .footer-top-list::before {
+        content: "DANH MỤC CHO THUÊ";
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .footer-main-col:not(:first-child) {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .footer-main-col:first-child {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .bottom-bar {
+        display: block !important;
+    }
+    .bottom-bar-item svg {
+        font-size: 16px;
+    }
+    .bottom-bar-item {
+        width: 25% !important;
+    }
+    .post {
+        padding: 0px;
+    }
+    .section-listing-info-title {
+        font-size: 14px;
+    }
+    .section-listing-info-price {
+        font-size: 14px;
+    }
+    .section-listing {
+        padding: 10px;
+    }
+    .section-listing-info-author {
+        margin-top: 0px;
+    }
+    .pagination-lg .page-item .page-link {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 330px) {
+    .support_item_title {
+        text-transform: none;
+    }
+    .bottom-bar-item span {
+        font-size: 12px;
+    }
+}

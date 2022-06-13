@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    background-color: #f5f5f5;
+}
+.btn {
+    outline: none;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.btn--secondary {
+    font-weight: 700;
+    font-size: 1.5rem;
+    width: 100%;
+    background: #16c784;
+    border-color: #16c784;
+    background: linear-gradient(to right, #16c784, #16c784);
+    margin-bottom: 10px;
+}
+.btn--outline {
+    width: 100%;
+    background: #fff;
+    border-color: #333;
+    background: linear-gradient(to right, #fff, #fff);
+    color: #333;
+    margin-bottom: 5px;
+}
+.btn-iconAdd {
+    background: url("../image/add-white.svg") no-repeat center/contain;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.clearfix {
+    display: block !important;
+    width: 100%;
+}

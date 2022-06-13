@@ -1,0 +1,151 @@
+.aside {
+    margin-top: 10px;
+    &-author {
+        border: 1px solid #febb02;
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        background-color: #febb02;
+        width: 100%;
+        text-align: center;
+        &-avatar {
+            width: 80px;
+            height: 80px;
+            overflow: hidden;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        &-name {
+            font-size: 21px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        &-status {
+            margin-bottom: 10px;
+            i {
+                width: 7px;
+                height: 7px;
+                border-radius: 50%;
+                background-color: #ddd;
+                display: inline-block;
+                margin-right: 5px;
+                margin-bottom: 2px;
+            }
+            
+        }
+        &-contact {
+            display: block;
+            width: 100%;
+            padding: 0 20px;
+        }
+        &-btnPhone,
+        &-btnZalo,
+        &-btnLove {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &-btnPhone {
+            i {
+                width: 20px;
+                height: 20px;
+                background: url(../image/phone-call-white.svg) center no-repeat;
+                background-size: contain;
+                display: inline-block;
+                margin-right: 5px;
+            }
+            a {
+                color: white;
+                text-decoration: none;
+            }
+            &:hover {
+                outline: none;
+                color: white;
+                border-color: #13bb7b;
+                background: linear-gradient(to right, #13bb7b, #13bb7b);
+            }
+        }
+        &-btnZalo {
+            i {
+                width: 20px;
+                height: 20px;
+                background: url(../image/icon-zalo.png) center no-repeat;
+                background-size: contain;
+                display: inline-block;
+                margin-right: 5px;
+            }
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        &-btnLove {
+            i {
+                width: 20px;
+                height: 20px;
+                background: url(../image/love.svg) center no-repeat;
+                background-size: contain;
+                display: inline-block;
+                margin-right: 5px;
+            }
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &-address {
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #dedede;
+        border-radius: 8px;
+        &-title {
+            font-size: 21px;
+            font-weight: bold;
+        }
+        &-list {
+            padding-left: 0;
+        }
+        &-item {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px dashed #eee;
+            &::before {
+                content: "";
+                display: inline-block;
+                width: 14px;
+                height: 14px;
+                padding-right: 20px;
+                background: url(../image/chevron-right.svg) center no-repeat;
+                background-size: contain;
+                opacity: 0.3;
+            }
+        }
+        &-link {
+            text-decoration: none;
+            padding: 5px 0;
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #333;
+            width: 100%;
+            line-height: 1.4;
+            font-size: 1rem;
+            font-weight: 400;
+            padding-left: 10px;
+            &:hover {
+                color: #f60;
+            }
+            span {
+                color: #aaa;
+                margin-left: 5px;
+                float: right;
+                font-size: 12px;
+            }
+        }
+    }
+}
